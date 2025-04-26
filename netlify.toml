@@ -1,8 +1,8 @@
 [build]
-command = "npx ng build --configuration production"
+command = "npm install -g @angular/cli && npm run build -- --configuration production"
 publish = "dist/teslo-shop"
 
 [build.environment]
 NODE_VERSION = "18"
 CI = "false"
-
+git add netlify.toml

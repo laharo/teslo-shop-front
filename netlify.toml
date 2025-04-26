@@ -5,4 +5,4 @@ publish = "dist/teslo-shop"
 [build.environment]
 NODE_VERSION = "18"
 CI = "false"
-git add netlify.toml
+

@@ -1,6 +1,7 @@
 [build]
-command = "npm run build"
+command = "npx ng build --configuration production"
 publish = "dist/teslo-shop"
 
 [build.environment]
 NODE_VERSION = "18"
+

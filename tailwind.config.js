@@ -11,8 +11,11 @@ module.exports = {
         fadeiN: 'fadeIn 0.3s ease-in-out'
       },
       keyframes: {
-        '0%': { opacity: 0 },
-        '100%': { opacity: 1 },
+        fadeiN: {
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        }
+
       }
     },
   },
